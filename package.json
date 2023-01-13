@@ -1,0 +1,25 @@
+{
+  "name": "babel-node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec babel-node --experimental-modules --es-module-specifier-resolution=node src/index.js",
+    "start": "babel-node --experimental-modules --es-module-specifier-resolution=node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-add-import-extension": "^1.6.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.16.11",
+    "dotenv": "^14.3.2"
+  }
+}
